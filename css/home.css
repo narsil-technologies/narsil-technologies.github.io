@@ -25,6 +25,37 @@
 .nav-el:hover {
   text-decoration: none;
   font-size: 25px;
-  transition: 0.3s;
   color: #fff;
+  background-color: #555;
+  transition: 0.3s;
+}
+
+.main-header {
+  text-align: center;
+  font-size: 60px;
+}
+
+.main-sub-header {
+  text-align: center;
+  font-size: 25px;
+}
+
+.slide-arrow {
+  left: 50%;
+  top: 95%;
+  width: 3vmin;
+  height: 3vmin;
+  position: absolute;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  transform: rotate(45deg);
+  border-radius: 5px;
+  cursor: pointer;
+  animation: bounce 1s alternate infinite;
+}
+
+@keyframes bounce {
+  0%   {top: 95%;}
+  100% {top: 94%;}
 }
