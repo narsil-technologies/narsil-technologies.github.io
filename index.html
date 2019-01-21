@@ -3,29 +3,60 @@
 <head>
   <title>Narsil</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/home.css" />
-  <link rel="icon" href="images/narsil-logo.PNG" />
+  <!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> -->
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="icon" href="images/narsil-logo-black.PNG" />
+  <!-- <script src="packages/jquery.localScroll-2.0.0/jquery.localScroll.js"></script> -->
+  <script type="text/javascript">
+    // $(document).ready(function() {
+    //   $('.slide-arrow').click(function() {
+    //     console.log('asdf');
+    //     $('#hello').localScroll({duration:500});
+    //   });
+    // });
+  </script>
 </head>
 <body>
-  <ul class="nav-ul">
-    <li class="nav-li"><a class="nav-el" href="#">Products</a></li>
-    <li class="nav-li"><a class="nav-el" href="#">About</a></li>
-    <li class="nav-li"><a class="nav-el" href="#">Contact</a></li>
-    <li class="nav-li"><a class="nav-el" href="#">Team</a></li>
+  <ul class="nav-ul sticky-nav">
+    <a class="narsil-logo-nav" href="#">
+      <img style="float:left; cursor:pointer;" src="images/narsil-logo.png" width="50" height="50" />
+    </a>
+    <li class="nav-li dropdown">
+      <a class="nav-el dropbtn" href="products.html">Products</a>
+      <!-- <div class="dropdown-content">
+        <a href="">FieldEdge Schedule Backup</a>
+        <a href="#">link 2</a>
+        <a href="#">link 3</a>
+      </div> -->
+    </li>
+    <li class="nav-li"><a class="nav-el" href="about.html">About</a></li>
+    <li class="nav-li"><a class="nav-el" href="contact.html">Contact</a></li>
+    <!-- <li class="nav-li"><a class="nav-el" href="#">Team</a></li> -->
   </ul>
 
-  <div class="row justify-content-center">
-    <img src="images/narsil-word-logo.PNG" width="400" height="250"/>
+  <div class="row justify-content-center topspace">
+    <img src="images/narsil-word-logo-black-2.PNG" width="450" height="250"/>
   </div>
   <div class="row justify-content-center">
     <div class="col-md-8">
-      <h1 class="main-header">Disseminating Innovative Tech</h1>
-      <h6 class="main-sub-header">Every company is burdened with inefficiency and redundancy. Modern technology can be applied to solve
+      <h1 class="main-header text-white">Disseminating Innovative Tech</h1>
+      <h6 class="main-sub-header text-white">Every company is burdened with inefficiency and redundancy. Modern technology can be applied to solve
           problems we previously thought unsolvable.</h6>
-      <h6 class="main-sub-header"><b>Our Mission</b> is to help organizations identify these problems &mdash; and provide the solutions.</h6>
+      <h6 class="main-sub-header text-white"><b>Our Mission</b> is to help organizations identify these problems &mdash; and provide the solutions.</h6>
     </div>
   </div>
 
   <div class="slide-arrow"></div>
+
+  <!-- <br /><br /><br /><br /><br /><br /><br />
+  <h1 class="text-white" >hello</h1>
+  <br /><br /><br /><br /><br /><br /><br />
+  <h1 class="text-white">hello</h1>
+  <br /><br /><br /><br /><br /><br /><br />
+  <h1 class="text-white">hello</h1>
+  <br /><br /><br /><br /><br /><br /><br />
+  <h1 class="text-white">hello</h1>
+  <br /><br /><br /><br /><br /><br /><br />
+  <h1 class="text-white" id="hello">hello</h1> -->
 </body>
 </html>

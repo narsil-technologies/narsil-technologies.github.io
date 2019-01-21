@@ -1,0 +1,219 @@
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: black;
+}
+
+.nav-ul {
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.nav-li {
+  display: inline;
+  float: left;
+}
+
+/* .dropbtn {
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  /* display: none; */
+  /* position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+} */
+
+/* .dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+} */
+
+/* .dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover, .dropdown-content {
+  display: block;
+}
+*/
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+.sticky-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav-el {
+  /* font-size: 20px; */
+  font-weight: 500;
+  text-align: center;
+  /* font-family */
+  background-color: inherit;
+  color: #000;
+  /* Below makes the whole area clickable */
+  display: inline-block;
+  position: relative;
+  padding: 1em;
+  transition: 0.3s;
+}
+
+.nav-el:hover {
+  text-decoration: none;
+  font-size: 21px;
+  color: #fff;
+  background-color: #555;
+  border-bottom: 5px solid black;
+  transition: 0.3s;
+}
+
+.main-header {
+  text-align: center;
+  font-size: 60px;
+  color: white;
+}
+
+.main-sub-header {
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 25px;
+  color: white;
+}
+
+.slide-arrow {
+  left: 50%;
+  top: 95%;
+  width: 3vmin;
+  height: 3vmin;
+  position: absolute;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  transform: rotate(45deg);
+  border-radius: 5px;
+  cursor: pointer;
+  animation: bounce 1s alternate infinite;
+  transition: 0.3s;
+}
+
+.slide-arrow:hover {
+  border-color: #3e8e41;
+  transition: 0.3s;
+}
+
+@keyframes bounce {
+  0%   {top: 95%;}
+  100% {top: 94%;}
+}
+
+.narsil-logo-nav > img {
+  transition: 0.3s;
+}
+
+.narsil-logo-nav:hover > img {
+  height: 65px;
+  width: 65px;
+  border-bottom: 5px solid black;
+  transition: 0.3s;
+}
+
+.topspace {
+  padding-top: 70px;
+}
+
+.info-box {
+  width: 80%;
+  height: 300px;
+  background-color: #555;
+  opacity: 0.8;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in;
+}
+
+.info-box:hover {
+  background-color: green;
+  transition: 0.3s;
+}
+
+a.div-link {
+  position: absolute;
+  width: 100%;
+  height: 100%; 
+  top: 0;
+  left: 0;
+  text-decoration: none;
+  /* raise anchor tag above everything else in div */
+  z-index: 10;
+  background-color: white;
+/*workaround to make clickable in IE */
+opacity: 0;
+/*workaround to make clickable in IE */
+filter: alpha(opacity=0);
+/*workaround to make clickable in IE */
+}
+
+.split {
+  background-color: white;
+  color: white;
+  height: 5px;
+  width: 80%;
+  left: 50%;
+  border-radius: 50px;
+}
+
+.description-text {
+  font-size: 23px;
+}
+
+.github-circle {
+  display:inline-block;
+  background: #070;
+  padding: 0.5em;
+  border-radius: 50%;
+  font-size: 30px;
+}
+
+.contact-icon {
+  cursor: pointer;
+  transition: color 0.3s;
+  transition: transform 0.3s;
+}
+
+.contact-icon:hover {
+  color: #ffd333;
+  transform: rotate(360deg) scale(1.1, 1.1);
+  -webkit-transition: color 0.3s linear;
+  -ms-transition: color 0.3s linear;
+  -webkit-transition: transform 0.3s linear;
+  -ms-transition: transform 0.3s linear;
+}
+
+.mail-link-a {
+  color: black;
+}
+
+.mail-link {
+  text-decoration: none;
+  color: #59f;
+  font-size: 25px;
+  transition: 0.3s;
+}
+
+.mail-link:hover {
+  text-decoration:none;
+  transition: 0.3s;
+}
