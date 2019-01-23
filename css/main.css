@@ -93,6 +93,12 @@ html, body {
   color: white;
 }
 
+.product-title-header {
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
 .slide-arrow {
   left: 50%;
   top: 95%;
@@ -152,7 +158,7 @@ html, body {
 a.div-link {
   position: absolute;
   width: 100%;
-  height: 100%; 
+  height: 100%;
   top: 0;
   left: 0;
   text-decoration: none;

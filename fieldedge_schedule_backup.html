@@ -13,16 +13,78 @@
         <img style="float:left; cursor:pointer;" src="images/narsil-logo.PNG" width="50" height="50" />
       </a>
       <li class="nav-li dropdown"><a class="nav-el dropbtn" href="products.html">Products</a></li>
-      <li class="nav-li"><a class="nav-el" href="about.html">About</a></li>
+      <!-- <li class="nav-li"><a class="nav-el" href="about.html">About</a></li> -->
       <li class="nav-li"><a class="nav-el" href="contact.html">Contact</a></li>
       <!-- <li class="nav-li"><a class="nav-el" href="#">Team</a></li> -->
     </ul>
     <div class="row justify-content-center">
       <div class="col-md-8">
         <h1 class="main-header text-white topspace">FieldEdge Schedule Backup</h1>
-        <h6 class="main-sub-header text-white">Click here to download the software: </h6>
+        <!-- <h6 class="main-sub-header text-white">Click here to download the software: </h6> -->
+        <div class="py-3"></div>
         <div class="row justify-content-center">
-          <a class="mail-link" href="downloadable/testzip.zip">testzip</a>
+            <p class="text-white description-text">
+              This software addresses a fundamental weakness in cloud-based scheduling with
+              the service software FieldEdge:
+              Users losing vital customer information when the FieldEdge servers go down.
+              This incurs a huge cost to dispatchers who could lose (and have lost) up to
+              a day's worth of service calls.
+              Dispatchers will no longer have this burden on their minds and can rest easy
+              having this proactive solution: <b>a tool that automatically turns dispatching
+              schedule data into a .csv file backup on their local computer.</b>
+            </p>
+            <div class="py-3">
+              <h2 class="product-title-header text-white">Contact us at
+                <a href="mailto:narsil.technologies@gmail.com" class="mail-link">narsil.technologies@gmail.com</a>
+                for more information.
+              </h2>
+            </div>
+            <div class="py-5">
+              <h2 class="product-title-header text-white">Description</h2>
+              <p class="text-white description-text">
+                This program will create a daily backup of the next day's
+                schedule containing the following information:
+              </p>
+              <div class="row justify-content-center">
+                  <p class="text-white description-text">
+                    - Customer Name<br />
+                    - Customer Address (if available)<br />
+                    - Phone Number (if available)<br />
+                    - Start Time<br />
+                    - Technician<br />
+                  </p>
+              </div>
+              <p class="text-white description-text">
+                This information will save to the file "FieldEdgeScheduleBackup.csv" in the
+                same folder that the program is stored in. This file will be updated daily,
+                and the old information will be overwritten by the new. If FieldEdge's servers
+                suddenly go down during the day, no need to worry. You have a backup
+                of your schedules!
+              </p>
+            </div>
+            <div class="py-3">
+              <h2 class="product-title-header text-white">In the Box</h2>
+              <p class="text-white description-text">
+                Three files are included in the package:
+              </p>
+              <div class="row justify-content-center">
+                <div class="col-md-8">
+                  <p class="text-white description-text">
+                    <b>schedule_backup.exe</b>: Creates the daily backups<br /><br />
+                    <b>encrypt_login.exe</b>: Encrypts the user's login information. Creates
+                    files "FieldEdge_password_encrypted" and
+                    "FieldEdge_username_encrypted". These files will be used for the
+                    schedule_backup program to login. This program encrypts your login
+                    data so that it cannot be accessed by anything but the program
+                    itself; your login information is secure.<br /><br />
+                    <b>chromedriver_win32.exe</b>: The "webdriver" that allows the program
+                    to automatically login to FieldEdge using login information provided
+                    by the user.<br /><br />
+                  </p>
+                </div>
+              </div>
+            </div>
+          <!-- <a class="mail-link" href="downloadable/testzip.zip">testzip</a> -->
         </div>
       </div>
     </div>
