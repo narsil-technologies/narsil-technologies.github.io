@@ -95,7 +95,7 @@ html, body {
 
 .product-title-header {
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   color: white;
 }
 
@@ -152,6 +152,7 @@ html, body {
 
 .info-box:hover {
   background-color: green;
+  /* transform: scale(1.3);  */
   transition: 0.3s;
 }
 
